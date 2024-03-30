@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+   
+}
+.navcano{
+    background-color: rgba(211, 8, 8, 0.705);
+    border-color: rgb(7, 82, 0);
+    border-style:solid;
+    border-width: 5px;
+    height: 3vw;
+    margin-top: 0px;
+   
+    position:relative;
+    padding-right: 15px;
+    padding-top: 8px;
+    display:flex;
+    
+}
+
+#c{
+    text-decoration: none;
+    color: rgb(154, 223, 26);
+ 
+    position: left;
+  margin-left: 65vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    
+}
+#a{
+    text-decoration: none;
+    color: rgb(154, 223, 26);
+    position: relative;
+    margin-left: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    
+}
+#n{
+    text-decoration: none;
+    color: rgb(154, 223, 26);
+    position: relative;
+    margin-left: 1vw;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#c:hover{
+   
+    color: rgb(39, 218, 15);
+    border-radius: 7px;
+    transition: 0.5s;
+    height: fit-content;
+
+}
+#n:hover{
+    
+    color: rgb(39, 218, 15);
+    border-radius: 7px;
+    transition: 0.5s;
+
+}
+#a:hover{
+    
+    color: rgb(39, 218, 15);
+    border-radius: 7px;
+    transition: 0.5s;
+    height: fit-content;
+
+}
+h1{
+    text-align: center;
+    margin-top: 2vw;
+    overflow: hidden;
+    background: linear-gradient(90deg,#9c0000,#158307,#9c0000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,0);
+    
+
+}
+.bslk
+{
+    background-color: rgba(0, 0, 0, 0.438);
+    width: fit-content;
+    margin-left: 35vw;
+    
+    
+}
+@keyframes animate{
+    0%{
+        background-position: -500%;
+    }
+    100%{
+        background-position: 500%;
+    }
+}
+
+body{
+    background-image:url("resos/hqdefault.jpg");
+}
+.video{
+    margin-top: 6vw;
+    margin-left: 20vw;
+    position: relative;
+    display: flex;
+}
